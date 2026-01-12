@@ -1,0 +1,34 @@
+{"level":"info","message":"Hello from Acquisitions!","service":"acquistions-api","timestamp":"2026-01-12T07:19:19.455Z"}
+{"level":"info","message":"::1 - - [12/Jan/2026:07:19:19 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"\n","service":"acquistions-api","timestamp":"2026-01-12T07:19:19.480Z"}
+{"level":"info","message":"::1 - - [12/Jan/2026:07:19:19 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"\n","service":"acquistions-api","timestamp":"2026-01-12T07:19:19.661Z"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquistions-api","timestamp":"2026-01-12T07:29:56.161Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:07:29:56 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"vscode-restclient\"\n","service":"acquistions-api","timestamp":"2026-01-12T07:29:56.170Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:07:30:24 +0000] \"GET /api HTTP/1.1\" 200 41 \"-\" \"vscode-restclient\"\n","service":"acquistions-api","timestamp":"2026-01-12T07:30:24.221Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:07:30:35 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"vscode-restclient\"\n","service":"acquistions-api","timestamp":"2026-01-12T07:30:35.175Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:07:31:05 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 31 \"-\" \"vscode-restclient\"\n","service":"acquistions-api","timestamp":"2026-01-12T07:31:05.530Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:07:59:45 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 31 \"-\" \"vscode-restclient\"\n","service":"acquistions-api","timestamp":"2026-01-12T07:59:45.169Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:08:02:41 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"vscode-restclient\"\n","service":"acquistions-api","timestamp":"2026-01-12T08:02:41.045Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:08:04:02 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 144 \"-\" \"vscode-restclient\"\n","service":"acquistions-api","timestamp":"2026-01-12T08:04:02.835Z"}
+{"level":"info","message":"User registered successfully: mferdya@example.com","service":"acquistions-api","timestamp":"2026-01-12T08:04:57.758Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:08:04:57 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 90 \"-\" \"vscode-restclient\"\n","service":"acquistions-api","timestamp":"2026-01-12T08:04:57.760Z"}
+{"level":"info","message":"User registered successfully: admin@example.com","service":"acquistions-api","timestamp":"2026-01-12T08:24:34.591Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:08:24:34 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 39 \"-\" \"vscode-restclient\"\n","service":"acquistions-api","timestamp":"2026-01-12T08:24:34.596Z"}
+{"level":"info","message":"User admin@example.com created successfully","service":"acquistions-api","timestamp":"2026-01-12T08:24:35.437Z"}
+{"level":"info","message":"User registered successfully: admin@example.com","service":"acquistions-api","timestamp":"2026-01-12T08:25:58.287Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:08:25:58 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 39 \"-\" \"vscode-restclient\"\n","service":"acquistions-api","timestamp":"2026-01-12T08:25:58.288Z"}
+{"level":"error","message":"Error creating user: Error: User already exists","service":"acquistions-api","timestamp":"2026-01-12T08:25:58.381Z"}
+{"level":"info","message":"User registered successfully: [object Promise]","service":"acquistions-api","timestamp":"2026-01-12T08:27:25.667Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:08:27:25 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 39 \"-\" \"vscode-restclient\"\n","service":"acquistions-api","timestamp":"2026-01-12T08:27:25.673Z"}
+{"level":"info","message":"User admin@example.com created successfully","service":"acquistions-api","timestamp":"2026-01-12T08:27:25.973Z"}
+{"level":"info","message":"User registered successfully: admin@example.com","service":"acquistions-api","timestamp":"2026-01-12T08:30:00.062Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:08:30:00 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 39 \"-\" \"vscode-restclient\"\n","service":"acquistions-api","timestamp":"2026-01-12T08:30:00.069Z"}
+{"level":"info","message":"User admin@example.com created successfully","service":"acquistions-api","timestamp":"2026-01-12T08:30:00.527Z"}
+{"level":"info","message":"User registered successfully: [object Promise]","service":"acquistions-api","timestamp":"2026-01-12T08:30:44.578Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:08:30:44 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 39 \"-\" \"vscode-restclient\"\n","service":"acquistions-api","timestamp":"2026-01-12T08:30:44.584Z"}
+{"level":"info","message":"User admin@example.com created successfully","service":"acquistions-api","timestamp":"2026-01-12T08:30:44.881Z"}
+{"level":"info","message":"User admin@example.com created successfully","service":"acquistions-api","timestamp":"2026-01-12T08:31:26.895Z"}
+{"level":"info","message":"User registered successfully: admin@example.com","service":"acquistions-api","timestamp":"2026-01-12T08:31:26.901Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:08:31:26 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 103 \"-\" \"vscode-restclient\"\n","service":"acquistions-api","timestamp":"2026-01-12T08:31:26.905Z"}
+{"level":"info","message":"User ferdy@example.com created successfully","service":"acquistions-api","timestamp":"2026-01-12T08:32:06.262Z"}
+{"level":"info","message":"User registered successfully: ferdy@example.com","service":"acquistions-api","timestamp":"2026-01-12T08:32:06.264Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:08:32:06 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 102 \"-\" \"vscode-restclient\"\n","service":"acquistions-api","timestamp":"2026-01-12T08:32:06.265Z"}

@@ -1,0 +1,12 @@
+GET http://localhost:3000/health
+
+###
+POST http://localhost:3000/api/auth/sign-up
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "ferdy",
+  "email": "ferdy@example.com",
+  "password": "123456"
+}
