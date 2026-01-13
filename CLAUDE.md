@@ -8,17 +8,37 @@ This is an Express.js REST API built with a modern Node.js stack, focusing on au
 
 ## Development Commands
 
+### Local Development (Non-Docker)
 - `npm run dev` - Start development server with Node.js watch mode
+- `npm run start` - Start production server
 - `npm run lint` - Run ESLint to check code quality
 - `npm run lint:fix` - Auto-fix linting issues
 - `npm run format` - Format code with Prettier
 - `npm run format:check` - Check code formatting without modifying files
+
+### Docker Commands
+- `npm run docker:dev` - Start development environment with Neon Local
+- `npm run docker:dev:build` - Rebuild and start development environment
+- `npm run docker:dev:down` - Stop development environment
+- `npm run docker:prod` - Start production environment
+- `npm run docker:prod:build` - Rebuild and start production environment
+- `npm run docker:prod:down` - Stop production environment
 
 ## Database Commands
 
 - `npm run db:generate` - Generate Drizzle migration files from schema changes in `src/models/*.js`
 - `npm run db:migrate` - Apply pending migrations to the database
 - `npm run db:studio` - Open Drizzle Studio (visual database browser) in browser
+
+### Running Database Commands in Docker
+When using Docker, prefix commands with Docker Compose exec:
+```bash
+# Development
+docker compose -f docker-compose.dev.yml exec app npm run db:migrate
+
+# Production
+docker compose -f docker-compose.prod.yml exec app npm run db:migrate
+```
 
 ## Architecture
 
@@ -97,3 +117,45 @@ ESLint configuration enforces:
 - Prefer const over let, no var
 - Arrow functions preferred
 - Unused vars prefixed with underscore (`_`) are allowed
+
+## Docker Setup
+
+The application supports Docker for both development and production environments.
+
+### Development Environment (with Neon Local)
+
+Uses `docker-compose.dev.yml` with:
+- **Neon Local**: Local Postgres database running in Docker
+- **Connection**: `postgres://neondb_owner:localpassword@neon-local:5432/acquistions_dev`
+- **Hot reload**: Source code mounted as volume for live updates
+- **Environment**: `.env.development` file
+
+Start development:
+```bash
+npm run docker:dev
+```
+
+### Production Environment (with Neon Cloud)
+
+Uses `docker-compose.prod.yml` with:
+- **Neon Cloud**: Serverless Postgres at `*.neon.tech`
+- **Connection**: Provided via `DATABASE_URL` environment variable
+- **Optimized**: Multi-stage build with production-only dependencies
+- **Environment**: `.env.production` file (must be configured with real secrets)
+
+Start production:
+```bash
+npm run docker:prod
+```
+
+### Key Differences
+
+| Aspect | Development | Production |
+|--------|------------|------------|
+| Database | Neon Local (Docker) | Neon Cloud |
+| Hot Reload | Enabled | Disabled |
+| Source Mounting | Yes (`./src`) | No (baked in image) |
+| User | root | nodejs (non-root) |
+| Secrets | Dev placeholders | Strong generated secrets |
+
+See `DOCKER.md` for detailed Docker documentation.
