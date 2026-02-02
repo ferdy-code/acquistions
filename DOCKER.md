@@ -66,6 +66,7 @@ The Dockerfile uses a multi-stage build approach:
 4. **production**: Optimized image with production dependencies only
 
 Benefits:
+
 - Smaller production image size
 - Faster builds (cached layers)
 - Security (non-root user in production)
@@ -74,6 +75,7 @@ Benefits:
 ### docker-compose.dev.yml
 
 Development configuration with:
+
 - **Neon Local container**: Local Postgres database
 - **App container**: Express app with hot reload
 - **Volumes**: Source code and logs mounted for live updates
@@ -83,6 +85,7 @@ Development configuration with:
 ### docker-compose.prod.yml
 
 Production configuration with:
+
 - **App container only**: No local database
 - **External Neon Cloud**: Connects to production database
 - **No source mounting**: Code baked into the image
@@ -98,6 +101,7 @@ DATABASE_URL=postgres://neondb_owner:localpassword@neon-local:5432/acquistions_d
 ```
 
 Key points:
+
 - Hostname is `neon-local` (Docker service name)
 - Credentials are dev-only (safe to commit)
 - No SSL required for local connection
@@ -109,6 +113,7 @@ DATABASE_URL=postgres://user:password@ep-xxxxx.region.aws.neon.tech/dbname?sslmo
 ```
 
 Key points:
+
 - Hostname is Neon Cloud endpoint
 - Strong generated secrets (never commit)
 - SSL required (`sslmode=require`)
@@ -119,6 +124,7 @@ Key points:
 ### Development
 
 #### Start everything
+
 ```bash
 npm run docker:dev
 # or
@@ -126,11 +132,13 @@ docker compose -f docker-compose.dev.yml up
 ```
 
 #### Start in background
+
 ```bash
 docker compose -f docker-compose.dev.yml up -d
 ```
 
 #### Rebuild containers
+
 ```bash
 npm run docker:dev:build
 # or
@@ -138,6 +146,7 @@ docker compose -f docker-compose.dev.yml up --build
 ```
 
 #### View logs
+
 ```bash
 # All services
 docker compose -f docker-compose.dev.yml logs -f
@@ -150,6 +159,7 @@ docker compose -f docker-compose.dev.yml logs -f neon-local
 ```
 
 #### Execute commands in container
+
 ```bash
 # Run migrations
 docker compose -f docker-compose.dev.yml exec app npm run db:migrate
@@ -162,6 +172,7 @@ docker compose -f docker-compose.dev.yml exec app npm run lint
 ```
 
 #### Stop services
+
 ```bash
 npm run docker:dev:down
 # or
@@ -169,6 +180,7 @@ docker compose -f docker-compose.dev.yml down
 ```
 
 #### Reset database (delete all data)
+
 ```bash
 docker compose -f docker-compose.dev.yml down -v
 ```
@@ -176,11 +188,13 @@ docker compose -f docker-compose.dev.yml down -v
 ### Production
 
 #### Build production image
+
 ```bash
 docker compose -f docker-compose.prod.yml build
 ```
 
 #### Start production
+
 ```bash
 npm run docker:prod
 # or
@@ -188,16 +202,19 @@ docker compose -f docker-compose.prod.yml up -d
 ```
 
 #### View production logs
+
 ```bash
 docker compose -f docker-compose.prod.yml logs -f
 ```
 
 #### Run migrations in production
+
 ```bash
 docker compose -f docker-compose.prod.yml exec app npm run db:migrate
 ```
 
 #### Stop production
+
 ```bash
 npm run docker:prod:down
 # or
@@ -208,17 +225,17 @@ docker compose -f docker-compose.prod.yml down
 
 ### Development Volumes
 
-| Host Path | Container Path | Purpose |
-|-----------|---------------|---------|
-| `./src` | `/app/src` | Source code hot reload |
-| `./logs` | `/app/logs` | Application logs |
-| `neon_data` | `/var/lib/postgresql/data` | Database persistence |
+| Host Path   | Container Path             | Purpose                |
+| ----------- | -------------------------- | ---------------------- |
+| `./src`     | `/app/src`                 | Source code hot reload |
+| `./logs`    | `/app/logs`                | Application logs       |
+| `neon_data` | `/var/lib/postgresql/data` | Database persistence   |
 
 ### Production Volumes
 
-| Host Path | Container Path | Purpose |
-|-----------|---------------|---------|
-| `./logs` | `/app/logs` | Application logs |
+| Host Path | Container Path | Purpose          |
+| --------- | -------------- | ---------------- |
+| `./logs`  | `/app/logs`    | Application logs |
 
 ## Networking
 
@@ -273,11 +290,13 @@ postgres://user:password@ep-cool-darkness-123456.us-east-2.aws.neon.tech/neondb?
 ### Issue: Database connection refused
 
 **Symptoms:**
+
 ```
 Error: connect ECONNREFUSED neon-local:5432
 ```
 
 **Solution:**
+
 ```bash
 # Check if database is running
 docker compose -f docker-compose.dev.yml ps
@@ -292,11 +311,13 @@ docker compose -f docker-compose.dev.yml restart neon-local
 ### Issue: Port already in use
 
 **Symptoms:**
+
 ```
 Error: bind: address already in use
 ```
 
 **Solution:**
+
 ```bash
 # Find what's using the port (macOS/Linux)
 lsof -i :3000
@@ -313,6 +334,7 @@ PORT=3001
 **Symptoms:** Code changes don't trigger server restart
 
 **Solution:**
+
 ```bash
 # Ensure volumes are mounted correctly
 docker compose -f docker-compose.dev.yml config
@@ -327,6 +349,7 @@ docker compose -f docker-compose.dev.yml logs app
 ### Issue: Permission denied (production)
 
 **Symptoms:**
+
 ```
 Error: EACCES: permission denied
 ```
@@ -346,6 +369,7 @@ RUN mkdir -p logs && \
 **Explanation:** Docker volumes persist data by default.
 
 **Solution:**
+
 ```bash
 # Remove volumes to reset database
 docker compose -f docker-compose.dev.yml down -v
@@ -354,12 +378,14 @@ docker compose -f docker-compose.dev.yml down -v
 ### Issue: npm ci fails during build
 
 **Symptoms:**
+
 ```
 npm ERR! code ENOLOCK
 ```
 
 **Solution:**
 Ensure `package-lock.json` exists and is up to date:
+
 ```bash
 npm install
 git add package-lock.json

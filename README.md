@@ -41,10 +41,12 @@ A modern Express.js REST API with authentication, built with Node.js, Neon Postg
 ## Prerequisites
 
 ### For Docker Development (Recommended)
+
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) (v20.10+)
 - [Docker Compose](https://docs.docker.com/compose/install/) (v2.0+)
 
 ### For Local Development
+
 - [Node.js](https://nodejs.org/) (v20+)
 - [npm](https://www.npmjs.com/) (v10+)
 - Access to a [Neon Database](https://neon.tech/) project
@@ -82,6 +84,7 @@ docker compose -f docker-compose.dev.yml up -d
 ```
 
 This command will:
+
 - Start a Neon Local PostgreSQL container on port 5432
 - Start the Express app on port 3000
 - Enable hot reload (changes to `src/` will auto-restart the server)
@@ -181,6 +184,7 @@ openssl rand -base64 32  # For COOKIE_SECRET
 ```
 
 Update `.env.production.local`:
+
 ```env
 DATABASE_URL=postgres://user:password@ep-xxxxx.region.aws.neon.tech/dbname?sslmode=require
 JWT_SECRET=your-generated-secret-here
@@ -227,20 +231,21 @@ Most platforms auto-detect the `Dockerfile` and build the production stage.
 #### 3. Run migrations
 
 Add a release command or run manually:
+
 ```bash
 npm run db:migrate
 ```
 
 ### Environment Differences
 
-| Feature | Development (Neon Local) | Production (Neon Cloud) |
-|---------|-------------------------|------------------------|
-| Database | Local Docker container | Neon Cloud (serverless) |
-| Connection | `neon-local:5432` | `*.neon.tech` |
-| Hot Reload | ✅ Enabled | ❌ Disabled |
-| Logs | Console + Files | Files only |
-| Secrets | Dev placeholders | Strong generated secrets |
-| SSL Mode | Not required | Required (`sslmode=require`) |
+| Feature    | Development (Neon Local) | Production (Neon Cloud)      |
+| ---------- | ------------------------ | ---------------------------- |
+| Database   | Local Docker container   | Neon Cloud (serverless)      |
+| Connection | `neon-local:5432`        | `*.neon.tech`                |
+| Hot Reload | ✅ Enabled               | ❌ Disabled                  |
+| Logs       | Console + Files          | Files only                   |
+| Secrets    | Dev placeholders         | Strong generated secrets     |
+| SSL Mode   | Not required             | Required (`sslmode=require`) |
 
 ## API Documentation
 
@@ -251,6 +256,7 @@ npm run db:migrate
 Register a new user.
 
 **Request Body:**
+
 ```json
 {
   "name": "John Doe",
@@ -261,6 +267,7 @@ Register a new user.
 ```
 
 **Response (201):**
+
 ```json
 {
   "message": "User registered",
@@ -278,6 +285,7 @@ Register a new user.
 Login an existing user.
 
 **Request Body:**
+
 ```json
 {
   "email": "john@example.com",
@@ -286,6 +294,7 @@ Login an existing user.
 ```
 
 **Response (200):**
+
 ```json
 {
   "message": "User signed in successfully",
@@ -305,6 +314,7 @@ Sets an HTTP-only cookie with JWT token.
 Logout the current user.
 
 **Response (200):**
+
 ```json
 {
   "message": "User signed out successfully"
@@ -381,21 +391,21 @@ docker compose -f docker-compose.dev.yml exec app npm run db:studio
 
 ### Required Variables
 
-| Variable | Description | Example |
-|----------|-------------|---------|
-| `PORT` | Server port | `3000` |
-| `NODE_ENV` | Environment | `development` or `production` |
-| `DATABASE_URL` | Neon database connection string | `postgres://...` |
-| `JWT_SECRET` | Secret for signing JWT tokens | `your-secret-key` |
-| `LOG_LEVEL` | Winston log level | `debug`, `info`, `error` |
+| Variable       | Description                     | Example                       |
+| -------------- | ------------------------------- | ----------------------------- |
+| `PORT`         | Server port                     | `3000`                        |
+| `NODE_ENV`     | Environment                     | `development` or `production` |
+| `DATABASE_URL` | Neon database connection string | `postgres://...`              |
+| `JWT_SECRET`   | Secret for signing JWT tokens   | `your-secret-key`             |
+| `LOG_LEVEL`    | Winston log level               | `debug`, `info`, `error`      |
 
 ### Optional Variables
 
-| Variable | Description | Default |
-|----------|-------------|---------|
-| `JWT_EXPIRES_IN` | JWT token expiration | `1d` |
-| `ALLOWED_ORIGINS` | CORS allowed origins | `*` |
-| `COOKIE_SECRET` | Cookie encryption secret | - |
+| Variable          | Description              | Default |
+| ----------------- | ------------------------ | ------- |
+| `JWT_EXPIRES_IN`  | JWT token expiration     | `1d`    |
+| `ALLOWED_ORIGINS` | CORS allowed origins     | `*`     |
+| `COOKIE_SECRET`   | Cookie encryption secret | -       |
 
 ## Development Commands
 
@@ -475,10 +485,11 @@ docker compose -f docker-compose.dev.yml restart neon-local
 ### Hot reload not working (Docker)
 
 Ensure volumes are mounted correctly in `docker-compose.dev.yml`:
+
 ```yaml
 volumes:
   - ./src:/app/src
-  - /app/node_modules  # Don't overwrite node_modules
+  - /app/node_modules # Don't overwrite node_modules
 ```
 
 ### Port already in use

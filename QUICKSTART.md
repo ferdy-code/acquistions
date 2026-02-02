@@ -23,6 +23,7 @@ npm run docker:dev
 ```
 
 That's it! This command will:
+
 - Start a local Neon Postgres database
 - Start the Express API server with hot reload
 - Connect everything together
@@ -38,11 +39,13 @@ docker compose -f docker-compose.dev.yml exec app npm run db:migrate
 ### Step 4: Test the API
 
 **Health Check:**
+
 ```bash
 curl http://localhost:3000/health
 ```
 
 **Sign Up:**
+
 ```bash
 curl -X POST http://localhost:3000/api/auth/sign-up \
   -H "Content-Type: application/json" \
@@ -55,6 +58,7 @@ curl -X POST http://localhost:3000/api/auth/sign-up \
 ```
 
 **Sign In:**
+
 ```bash
 curl -X POST http://localhost:3000/api/auth/sign-in \
   -H "Content-Type: application/json" \

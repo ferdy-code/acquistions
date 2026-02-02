@@ -10,7 +10,7 @@ services:
     container_name: acquistions-app-prod
     restart: unless-stopped
     ports:
-      - "3000:3000"
+      - '3000:3000'
     env_file:
       - .env.production
     volumes:
@@ -19,7 +19,13 @@ services:
     networks:
       - app-network
     healthcheck:
-      test: ["CMD", "node", "-e", "require('http').get('http://localhost:3000/health', (r) => {process.exit(r.statusCode === 200 ? 0 : 1)})"]
+      test:
+        [
+          'CMD',
+          'node',
+          '-e',
+          "require('http').get('http://localhost:3000/health', (r) => {process.exit(r.statusCode === 200 ? 0 : 1)})",
+        ]
       interval: 30s
       timeout: 10s
       retries: 3
