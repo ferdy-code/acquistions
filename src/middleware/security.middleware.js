@@ -71,7 +71,7 @@ const securityMiddleware = async (req, res, next) => {
 
       res.status(403).json({
         error: 'Forbidden',
-        message: 'Too many requests',
+        message: 'Too many requests' + message,
       });
     }
 

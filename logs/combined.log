@@ -478,3 +478,133 @@
 {"level":"info","message":"::1 - - [02/Feb/2026:07:23:05 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:23:05.944Z"}
 {"level":"info","message":"::1 - - [02/Feb/2026:07:23:36 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:23:36.119Z"}
 {"level":"info","message":"::1 - - [02/Feb/2026:07:24:06 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:24:06.278Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:24:36 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:24:36.446Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:25:06 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:25:06.612Z"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [02/Feb/2026:07:25:36 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 59 \"-\" \"vscode-restclient\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:25:36.477Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:25:36 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:25:36.809Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:26:06 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:26:06.976Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:26:37 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:26:37.132Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:27:07 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:27:07.283Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:27:37 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:27:37.438Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:28:07 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:28:07.599Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:28:37 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:28:37.802Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:29:08 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:29:08.117Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:29:38 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:29:38.288Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:30:08 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:30:08.553Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:30:38 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:30:38.762Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:31:08 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:31:08.916Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:31:39 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:31:39.069Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:32:09 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:32:09.225Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:32:39 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:32:39.411Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:33:09 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:33:09.562Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:33:39 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:33:39.780Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:34:10 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:34:10.140Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:34:40 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:34:40.511Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:35:11 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:35:11.108Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:35:41 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:35:41.274Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:36:11 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:36:11.672Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:36:41 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:36:41.824Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:37:12 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:37:12.195Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:37:42 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:37:42.391Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:38:12 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:38:12.551Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:38:42 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:38:42.763Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:39:12 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:39:12.927Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:39:43 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:39:43.077Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:40:13 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:40:13.598Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:40:43 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:40:43.767Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:41:14 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:41:14.052Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:41:44 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:41:44.227Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:42:14 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:42:14.603Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:42:44 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:42:44.770Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:43:14 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:43:14.995Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:43:45 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:43:45.181Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:44:15 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:44:15.367Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:44:45 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:44:45.538Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:45:15 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:45:15.945Z"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [02/Feb/2026:07:45:34 +0000] \"GET /_nuxt/ HTTP/1.1\" 404 145 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:45:34.662Z"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [02/Feb/2026:07:45:35 +0000] \"GET /_nuxt/ HTTP/1.1\" 404 145 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:45:35.767Z"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [02/Feb/2026:07:45:36 +0000] \"GET /_nuxt/ HTTP/1.1\" 404 145 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:45:36.903Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:45:46 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:45:46.105Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:46:16 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:46:16.289Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:46:46 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:46:46.433Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:47:16 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:47:16.638Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:47:46 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:47:46.813Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:48:17 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:48:17.180Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:48:47 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:48:47.339Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:49:17 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:49:17.512Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:49:47 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:49:47.670Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:50:17 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:50:17.836Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [02/Feb/2026:07:50:37 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:50:37.520Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [02/Feb/2026:07:50:37 +0000] \"GET /api HTTP/1.1\" 200 41 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:50:37.561Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [02/Feb/2026:07:50:37 +0000] \"GET /nonexistent HTTP/1.1\" 404 21 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:50:37.631Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:50:48 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:50:48.237Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [02/Feb/2026:07:51:03 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:51:03.759Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [02/Feb/2026:07:51:03 +0000] \"GET /api HTTP/1.1\" 200 41 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:51:03.937Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [02/Feb/2026:07:51:04 +0000] \"GET /nonexistent HTTP/1.1\" 404 21 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:51:04.037Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:51:18 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:51:18.829Z"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [02/Feb/2026:07:51:39 +0000] \"GET /_nuxt/ HTTP/1.1\" 404 145 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:51:39.120Z"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [02/Feb/2026:07:51:40 +0000] \"GET /_nuxt/ HTTP/1.1\" 404 145 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:51:40.230Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:51:49 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:51:49.439Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:52:19 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:52:19.601Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:52:50 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:52:50.440Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:53:20 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:53:20.600Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:53:50 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:53:50.794Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:54:20 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:54:20.961Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:54:51 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:54:51.141Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:55:21 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:55:21.283Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:07:55:51 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T07:55:51.653Z"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [02/Feb/2026:08:19:02 +0000] \"GET /_nuxt/builds/latest.json?1770020341919 HTTP/1.1\" 404 163 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:19:02.149Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:19:07 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:19:07.326Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:19:37 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:19:37.524Z"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [02/Feb/2026:08:19:49 +0000] \"GET /_nuxt/ HTTP/1.1\" 404 145 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:19:49.394Z"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [02/Feb/2026:08:19:50 +0000] \"GET /_nuxt/ HTTP/1.1\" 404 145 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:19:50.901Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:20:07 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:20:07.726Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:20:37 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:20:37.934Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:21:08 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:21:08.308Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:21:38 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:21:38.458Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:22:08 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:22:08.606Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:22:38 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:22:38.759Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:23:29 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:23:29.865Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:24:00 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:24:00.512Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:24:30 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:24:30.655Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:25:00 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:25:00.832Z"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [02/Feb/2026:08:25:13 +0000] \"GET /_nuxt/ HTTP/1.1\" 404 145 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:25:13.285Z"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [02/Feb/2026:08:25:14 +0000] \"GET /_nuxt/ HTTP/1.1\" 404 145 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:25:14.402Z"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [02/Feb/2026:08:25:15 +0000] \"GET /_nuxt/ HTTP/1.1\" 404 145 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:25:15.511Z"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [02/Feb/2026:08:25:16 +0000] \"GET /_nuxt/ HTTP/1.1\" 404 145 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:25:16.613Z"}
+{"ip":"::ffff:172.21.0.1","level":"warn","message":"Rate limit exceeded","path":"/_nuxt/","service":"acquistions-api","timestamp":"2026-02-02T08:25:17.725Z","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [02/Feb/2026:08:25:17 +0000] \"GET /_nuxt/ HTTP/1.1\" 403 51 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:25:17.727Z"}
+{"ip":"::ffff:172.21.0.1","level":"warn","message":"Rate limit exceeded","path":"/_nuxt/","service":"acquistions-api","timestamp":"2026-02-02T08:25:29.915Z","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [02/Feb/2026:08:25:29 +0000] \"GET /_nuxt/ HTTP/1.1\" 403 51 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:25:29.917Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquistions-api","timestamp":"2026-02-02T08:25:30.948Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:25:30 +0000] \"GET /health HTTP/1.1\" 200 51 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:25:30.951Z"}
+{"ip":"::ffff:172.21.0.1","level":"warn","message":"Rate limit exceeded","path":"/_nuxt/","service":"acquistions-api","timestamp":"2026-02-02T08:25:30.981Z","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [02/Feb/2026:08:25:30 +0000] \"GET /_nuxt/ HTTP/1.1\" 403 51 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:25:30.982Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquistions-api","timestamp":"2026-02-02T08:26:01.351Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:26:01 +0000] \"GET /health HTTP/1.1\" 200 51 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:26:01.355Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquistions-api","timestamp":"2026-02-02T08:26:31.056Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:26:31 +0000] \"GET /health HTTP/1.1\" 200 51 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:26:31.059Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:27:01 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:27:01.232Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:27:31 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:27:31.382Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:28:01 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:28:01.758Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:28:31 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:28:31.917Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:29:02 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:29:02.067Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:29:32 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:29:32.254Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:30:02 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:30:02.409Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:30:32 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:30:32.559Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:31:02 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:31:02.707Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:31:32 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:31:32.847Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:32:03 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:32:03.000Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:32:33 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:32:33.148Z"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [02/Feb/2026:08:33:01 +0000] \"GET /_nuxt/ HTTP/1.1\" 404 145 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:33:01.945Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:33:02 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:33:02.890Z"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [02/Feb/2026:08:33:03 +0000] \"GET /_nuxt/ HTTP/1.1\" 404 145 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:33:03.148Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:33:33 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:33:33.096Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:34:03 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:34:03.252Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:34:33 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:34:33.414Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:35:03 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:35:03.622Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:35:33 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:35:33.780Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:36:03 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:36:03.968Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:36:34 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:36:34.125Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:37:04 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:37:04.320Z"}
+{"level":"info","message":"::1 - - [02/Feb/2026:08:37:34 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"\n","service":"acquistions-api","timestamp":"2026-02-02T08:37:34.537Z"}
