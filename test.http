@@ -25,3 +25,15 @@ Content-Type: application/json
 POST http://localhost:3000/api/auth/sign-out
 Accept: application/json
 Content-Type: application/json
+
+###
+GET http://localhost:3000/api/users
+Accept: application/json
+Content-Type: application/json
+Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJmZXJkeUBleGFtcGxlLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc1NDI0OTk4NCwiZXhwIjoxNzU0MjU5OTg0fQ.8171811718117181171811718117181171811718117181171811718117181171
+
+###
+DELETE http://localhost:3000/api/users/5
+Accept: application/json
+Content-Type: application/json
+Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwiZW1haWwiOiJmZXJkeUBleGFtcGxlLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzcwMDE2NTc3LCJleHAiOjE3NzAxMDI5Nzd9.4neP4NgSyDEHj745r_tnhxjlHXWCcBr7cn0mOrb9EYA
